@@ -1,6 +1,6 @@
-import s from './App.module.css';
-const App = () => {
-  return <div className={s.container}></div>;
-};
+import { PostsApp } from './PostApp/PostsApp';
 
+const App = () => {
+  return <PostsApp />;
+};
 export default App;
